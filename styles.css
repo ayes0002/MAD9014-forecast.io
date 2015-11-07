@@ -1,0 +1,205 @@
+h1{
+  font-family:Georgia, serif;
+}
+p{
+  font-family:Calibri, sans-serif;
+}
+.weather-forecast{
+    min-width: 500px;
+    max-width: 800px
+}
+
+table{
+    float: left;
+    width: 100%;
+}
+
+td , th{
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background-color: lightgray;
+}
+
+.rnpartly-cloudy-day{
+    background-image: url("http://icons.iconarchive.com/icons/icons8/ios7/256/Weather-Partly-Cloudy-Day-icon.png");
+    background-size: contain;
+    height: 70px;
+    width: 70px;
+}
+
+.rnclear-day{
+    background-image: url("https://cdn2.iconfinder.com/data/icons/wthr/32/sunny-512.png");
+    background-size: contain;
+    height: 70px;
+    width: 70px;
+}
+
+.rnclear-night{
+    background-image: url("https://cdn2.iconfinder.com/data/icons/wthr/32/moon-512.png");
+    background-size: contain;
+    height: 70px;
+    width: 70px;
+}
+
+.rnpartly-cloudy-night{
+    background-image: url("https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/512/partly_cloudy_night.png");
+    background-size: contain;
+    height: 70px;
+    width: 70px;
+}
+
+.rnwind{
+    background-image: url("https://cdn3.iconfinder.com/data/icons/weather-25/512/Wind-512x512.png");
+    background-size: contain;
+    height: 70px;
+    width: 70px;
+}
+
+.rncloudy{
+    background: url("https://cdn2.iconfinder.com/data/icons/wthr/32/cloudy-512.png") no-repeat;
+    background-size: contain;
+    height: 70px;
+    width: 70px;
+}
+
+.rnrain{
+    background-image: url("https://cdn4.iconfinder.com/data/icons/outline-2/64/weather-cloud-heavy-rain-512.png");
+    background-size: contain;
+    height: 70px;
+    width: 70px;
+}
+
+.rnfog{
+    background-image: url("https://cdn0.iconfinder.com/data/icons/weather-bold/142/mist-512.png");
+    background-size: contain;
+    height: 70px;
+    width: 70px;
+}
+
+.rnsnow{
+    background-image: url("http://icons.iconarchive.com/icons/icons8/windows-8/512/Weather-Snow-icon.png");
+    background-size: contain;
+    height: 70px;
+    width: 70px;
+}
+
+.rnsleet{
+    background-image: url("https://cdn4.iconfinder.com/data/icons/wthr/32/659099-cloud-mix-512.png");
+    background-size: contain;
+    height: 70px;
+    width: 70px;
+}
+
+.rnhail{
+    background-image: url("https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/512/hail.png");
+    background-size: contain;
+    height: 70px;
+    width: 70px;
+}
+
+.rnthunderstorm{
+    background-image: url("https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/512/storm.png");
+    background-size: contain;
+    height: 70px;
+    width: 70px;
+}
+
+.rntornado{
+    background-image: url("https://cdn3.iconfinder.com/data/icons/weather-icons-1/64/Tornado-512.png");
+    background-size: contain;
+    height: 70px;
+    width: 70px;
+}
+
+.partly-cloudy-day{
+    background: url("http://icons.iconarchive.com/icons/icons8/ios7/256/Weather-Partly-Cloudy-Day-icon.png") no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+}
+
+.clear-day{
+    background: url("https://cdn2.iconfinder.com/data/icons/wthr/32/sunny-512.png") no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+}
+
+.clear-night{
+    background: url("https://cdn2.iconfinder.com/data/icons/wthr/32/moon-512.png") no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+}
+
+.partly-cloudy-night{
+    background: url("https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/512/partly_cloudy_night.png") no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+}
+
+.wind{
+    background: url("https://cdn3.iconfinder.com/data/icons/weather-25/512/Wind-512x512.png") no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+}
+
+.cloudy{
+    background: url("https://cdn2.iconfinder.com/data/icons/wthr/32/cloudy-512.png") no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+}
+
+.rain{
+    background: url("https://cdn4.iconfinder.com/data/icons/outline-2/64/weather-cloud-heavy-rain-512.png") no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+}
+
+.fog{
+    background: url("https://cdn0.iconfinder.com/data/icons/weather-bold/142/mist-512.png") no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+}
+
+.snow{
+    background: url("http://icons.iconarchive.com/icons/icons8/windows-8/512/Weather-Snow-icon.png") no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+}
+
+.sleet{
+    background: url("https://cdn4.iconfinder.com/data/icons/wthr/32/659099-cloud-mix-512.png") no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+}
+
+.hail{
+    background: url("https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/512/hail.png") no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+}
+
+.thunderstorm{
+    background: url("https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/512/storm.png") no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+}
+
+.tornado{
+    background: url("https://cdn3.iconfinder.com/data/icons/weather-icons-1/64/Tornado-512.png") no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+}
